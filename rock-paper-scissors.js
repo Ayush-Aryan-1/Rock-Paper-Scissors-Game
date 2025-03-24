@@ -68,9 +68,9 @@ let score = JSON.parse(localStorage.getItem('score'))
           udateScoreElemet();
 
           document.querySelector('.js-moves').innerHTML =
-          `You Picked <img src="rock-paper-scissors-images/${playerMove}-emoji.png" class="move-icon">
+          `You Picked <img src="${playerMove}-emoji.png" class="move-icon">
           ---
-          Computer Picked <img src="rock-paper-scissors-images/${computerMove}-emoji.png" class="move-icon">`;
+          Computer Picked <img src="${computerMove}-emoji.png" class="move-icon">`;
 
           document.querySelector('.js-result').innerHTML = `You ${result}`;
         
