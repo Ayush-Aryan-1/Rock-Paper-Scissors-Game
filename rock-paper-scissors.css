@@ -1,0 +1,57 @@
+body{
+  background-color: rgb(25, 25, 25);
+  color: white;
+  font-family: arial;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.move-icon{
+  height: 50px;
+}
+.rock-icon,.paper-icon, .scissors-icon{
+  height: 50px;
+  display: inline-block;
+}
+/*  .paper-icon{
+  height: 50px;
+  display: inline-block;
+
+}
+.scissors-icon{
+  height: 50px;
+} */
+.move-button{
+  background-color: transparent;
+  border: 3px solid white;
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  margin: 10px;
+  cursor: pointer;
+}
+.result{
+  font-size: 25px;
+  font-weight: bold;
+}
+.score{
+  margin-top: 60px;
+}
+.reset-score-button{
+  background-color: white;
+  border: none;
+  font-size: 15px;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
